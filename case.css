@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Caudex&family=Roboto:ital,wght@0,100;0,300;0,400;1,300;1,400&display=swap');
+:root {
+    --primary: #a6f5ff;
+    --light: #9c9c9c;
+    --dark: #212121;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+  .roles-line1{
+    height: 1px;
+  margin-bottom: 20px;
+    background-color: var(--dark);
+   
+}
+.roles-line2{
+margin-top: 20px;
+height: 1px;
+  background-color: var(--dark);
+}
+
+.role-list ul{
+display: flex;
+justify-content: space-between;
+}
+img {
+    display: block;
+        width:100%;
+        height: auto;
+        border-radius: 20px;
+    }
+h1, 
+h2,
+p{
+    margin-bottom: 20px;
+}
+li{
+list-style-type: none;
+}
